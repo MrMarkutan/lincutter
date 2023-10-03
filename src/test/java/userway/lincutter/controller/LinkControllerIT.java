@@ -31,7 +31,6 @@ public class LinkControllerIT {
 
     @Test
     public void shortenLink() throws Exception {
-        // Input data
         String originalUrl = "http://original.url";
         Link mockLink = new Link();
         mockLink.setOriginalUrl(originalUrl);

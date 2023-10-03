@@ -8,9 +8,6 @@ import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 import userway.lincutter.model.Link;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
 
 @DataMongoTest
 class LinkRepositoryTest {
